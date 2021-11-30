@@ -9,5 +9,8 @@ pipeline {
 		            """)
 	        }
 	    }
+            stage('Build'){
+			bat("mvn package")
+	    }
     }
 }
