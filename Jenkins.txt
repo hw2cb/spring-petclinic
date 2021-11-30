@@ -11,7 +11,7 @@ pipeline {
 	    }
             stage('Build'){
                 steps{
-                        bat("mvn package")
+                        bat('C:\\Users\\Administrator\\AppData\\Local\\Jenkins\\.jenkins\\workspace\\petclinicJob\\build.bat')
                 }	
 	    }
     }
